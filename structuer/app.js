@@ -57,7 +57,7 @@ alert("Please answer with (yes OR no).");
         break;
 }
 
-Q4= prompt("Guess this, do you i like food?").toLowerCase();
+Q4= prompt("Guess this, do i like food?").toLowerCase();
 console.log("Q4 ANSWER")
 console.log(Q4)
 switch(Q4) {
