@@ -1,0 +1,40 @@
+header {
+    margin: 20px 0% 0px 0%;
+}
+
+nav {
+    padding: 2px 15px 5px 15px;
+    }
+
+
+body {
+    background-image: url("https://www.thebalancesmb.com/thmb/3AOWc2DBK-mWNOYKwXls5t2P_UM=/1414x1414/smart/filters:no_upscale()/GettyImages-907736222-5bd818fa46e0fb0051685a1b.jpg");
+    margin: 5%;
+}
+h1 {
+    text-align: center;
+    height: 30px;
+  font-size: 40px;
+}
+p {
+    border: 1px solid rgb(140, 139, 223);
+    border-radius: 10px;
+    border-width: 2px;
+    text-indent: 1px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 1px 1px rgb(151, 145, 145);
+  font-size: 20px;
+}
+
+#me {
+    margin: 20px 20% 2px 20%;
+}
+
+#rld {
+   
+    margin: 0% 0% 0% 47%;
+}
+footer {
+    padding: 220px 0px 0px 1100px;
+}
