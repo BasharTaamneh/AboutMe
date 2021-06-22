@@ -7,6 +7,19 @@ let Q2
 let Q3
 let Q4
 let Q5
+let Q6
+let Q7
+let i
+let n
+let x
+let y
+let Arr1 = []
+let Arr2 = []
+let counter = 0;
+
+function add() {
+    counter += 1;
+}
 
 Uname = prompt("What is your name Mr/Mrs?");
 console.log(Uname)
@@ -18,6 +31,7 @@ console.log("Q1 ANSWER")
 console.log(Q1)
 switch (Q1) {
     case "YES":
+        add();
         alert("that's really kind of you " + (String.fromCodePoint(0x1F60D)));
         break;
     case "NO":
@@ -27,63 +41,121 @@ switch (Q1) {
         alert("Please answer with (yes OR no).");
         break;
 }
-Q2= prompt("Do you think I like technology??").toUpperCase();
+Q2 = prompt("Do you think I like technology??").toUpperCase();
 console.log("Q2 ANSWER")
 console.log(Q2)
-switch(Q2) {
+switch (Q2) {
     case "YES":
+        add();
         alert("Well you're really right, I love evolution " + (String.fromCodePoint(0x1F4E1)));
         break;
     case "NO":
         alert("You are wrong, because I made this page " + (String.fromCodePoint(0x274C)));
         break;
     default:
-alert("Please answer with (yes OR no).");
+        alert("Please answer with (yes OR no).");
         break;
 }
 
-Q3= prompt("Do you think I will achieve my goal?" ).toUpperCase();
+Q3 = prompt("Do you think I will achieve my goal?").toUpperCase();
 console.log("Q3 ANSWER")
 console.log(Q3)
-switch(Q3) {
+switch (Q3) {
     case "YES":
+        add();
         alert("I really hope so " + (String.fromCodePoint(0x1F60E)));
+
         break;
     case "NO":
         alert("be positive please " + (String.fromCodePoint(0x1F615)));
         break;
     default:
-alert("Please answer with (yes OR no).");
+        alert("Please answer with (yes OR no).");
         break;
 }
 
-Q4= prompt("Guess this, do i like food?").toLowerCase();
+Q4 = prompt("Guess this, do i like food?").toLowerCase();
 console.log("Q4 ANSWER")
 console.log(Q4)
-switch(Q4) {
+switch (Q4) {
     case "yes":
+        add();
         alert("Hahaha, who doesn't like food? " + (String.fromCodePoint(0x1F601)));
+
         break;
     case "no":
         alert("You will piss me off.. sure i like it " + (String.fromCodePoint(0x1F60B)));
         break;
     default:
-alert("Please answer with (yes OR no).");
+        alert("Please answer with (yes OR no).");
         break;
 }
 
-Q5= prompt("Am I lucky to host you? ").toLowerCase();
+Q5 = prompt("Am I lucky to host you? ").toLowerCase();
 console.log("Q5 ANSWER")
 console.log(Q5)
-switch(Q5) {
+switch (Q5) {
     case "yes":
+        add();
         alert("undoubtedly " + (String.fromCodePoint(0x1F604)));
+        console.count(Q5);
         break;
     case "no":
         alert("Of course I'm lucky not as you think " + (String.fromCodePoint(0x1F605)));
         break;
     default:
-alert("Please answer with (yes OR no).");
+        alert("Please answer with (yes OR no).");
         break;
 }
-alert("thanks a lot..  "  + Uname + ", for your time i appreciate your efforts");
+
+for (n = 5; n <= 50; n++) {
+    Arr1.push(n);
+}
+console.log("Arr1= " + Arr1);
+
+Q6 = prompt("guess a number# ! " + (String.fromCodePoint(0x1F3AF)));
+console.log("Q6 ANSWER")
+console.log(Q6)
+
+
+for (i = 1; i <= 4; i++) {
+    if (Q6 <= 5) {
+        alert("too low");
+        Q6 = prompt("guess a number# ! ");
+    }
+    else if (Q6 >= 50) {
+        alert("too high");
+        Q6 = prompt("guess a number# ! ");
+    }
+}
+if (Q6 <= 5 || Q6 >= 50) {
+    alert("the correct  Considered numbers to answer is  " + Arr1);
+}
+else {
+    add();
+}
+
+for (y = 5; y <= 10; y++) {
+    Arr2.push(y);
+}
+console.log("Arr2= " + Arr2);
+
+Q7 = prompt("What is the sum of 4+3?    "
+    + (Arr2) + (String.fromCodePoint(0x1F3AF)));
+console.log("Q7 ANSWER")
+console.log(Q7)
+for (x = 1; x <= 6; x++) {
+    if (Q7 != 7) {
+        alert("wrong answer");
+        Q7 = prompt("What is the sum of 4+3?    "
+            + (Arr2) + (String.fromCodePoint(0x1F3AF)));
+    }
+}
+if (Q7 = 7) {
+    add();
+}
+alert("awsome you got ( " + counter + " / 7 ) score");
+alert("thanks a lot..  " + Uname + ", for your time i appreciate your efforts");
+
+
+

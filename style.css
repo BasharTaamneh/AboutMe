@@ -16,7 +16,7 @@ h1 {
     height: 30px;
   font-size: 40px;
 }
-p {
+ul {
     border: 1px solid rgb(140, 139, 223);
     border-radius: 10px;
     border-width: 2px;
@@ -37,4 +37,28 @@ p {
 }
 footer {
     padding: 220px 0px 0px 1100px;
+}
+h2 {
+background-color: rgba(109, 13, 199, 0.678);
+width: 490px;
+border-radius: 2px;
+}
+
+img {margin-right:  1px;
+    float: right ;
+    width: 700px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: -20px;
+    border-radius: 5px;
+}
+#ordlist ol {
+    font-size: 25px;
+    margin-right: 10px;
+    background-color: cornflowerblue;
+    opacity: 85%; 
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    align-content: center;
 }
