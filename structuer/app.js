@@ -181,5 +181,7 @@ for (let attmp = 1; attmp <= 6; attmp++) {
 alert("awsome you got ( " + counter + " / 7 ) score");
 alert("thanks a lot..  " + Uname + ", for your time i appreciate your efforts");
 
+alert ( This alert from Dua Jaradat);
+
 
 
