@@ -153,6 +153,7 @@ for (x = 1; x <= 6; x++) {
     }
 }
 if (Q7 = 7) {
+    alert(" correct (^_^) ");
     add();
 }
 alert("awsome you got ( " + counter + " / 7 ) score");
