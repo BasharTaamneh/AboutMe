@@ -1,5 +1,6 @@
 # AboutMe
 
+# **22/6/2021**
 - Create a Top Ten list at the bottom of HTML page as an ordered list in HTML.
 
 - Converting work experience and education summary into an unordered list using HTML
@@ -13,3 +14,11 @@
 - Display all the possible correct answers to the user
 - Keep track of the total number of correct answers.
 - and tell how many correct out of the 7 questions asked.
+
+- # **23/6/2021**
+
+- edit code by my partner (dua) through pair programming 
+
+- each question was inserted into the declared function
+
+- each declared function was called to do the purpose of it at the beginning of the code
