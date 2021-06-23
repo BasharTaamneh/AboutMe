@@ -131,8 +131,8 @@ for (i = 1; i <= 4; i++) {
 if (Q6 <= 5 || Q6 >= 50) {
     alert("the correct  Considered numbers to answer is  " + Arr1);
 }
-else if (Q6 >= 5 || Q6 <= 50)
-{
+else if (Q6 >= 5 || Q6 <= 50) {
+    alert(" correct (^_^) ");
     add();
 }
 
