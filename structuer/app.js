@@ -118,7 +118,7 @@ console.log("Q6 ANSWER")
 console.log(Q6)
 
 
-for (i = 1; i <= 4; i++) {
+for (i = 1; i <= 3; i++) {
     if (Q6 <= 5) {
         alert("too low");
         Q6 = prompt("guess a number# ! ");
@@ -136,25 +136,21 @@ else if (Q6 >= 5 || Q6 <= 50) {
     add();
 }
 
-for (y = 5; y <= 10; y++) {
-    Arr2.push(y);
-}
+Arr2 = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
 console.log("Arr2= " + Arr2);
-
-Q7 = prompt("What is the sum of 4+3?    "
-    + (Arr2) + (String.fromCodePoint(0x1F3AF)));
-console.log("Q7 ANSWER")
-console.log(Q7)
-for (x = 1; x <= 6; x++) {
-    if (Q7 != 7) {
-        alert("wrong answer");
-        Q7 = prompt("What is the sum of 4+3?    "
-            + (Arr2) + (String.fromCodePoint(0x1F3AF)));
+for (let attmp = 1; attmp <= 6; attmp++) {
+    Q7 = prompt("guess What is my favarot color?    "
+        + (String.fromCodePoint(0x1F3AF)).toLowerCase());
+    console.log("Q7 ANSWER")
+    console.log(Q7)
+    for (x = 0; x < Arr2.length; x++) {
+        if (Q7 == Arr2[x]) {
+            attmp = 10
+            alert(" correct (^_^) ");
+            add();
+            break;
+        }
     }
-}
-if (Q7 = 7) {
-    alert(" correct (^_^) ");
-    add();
 }
 alert("awsome you got ( " + counter + " / 7 ) score");
 alert("thanks a lot..  " + Uname + ", for your time i appreciate your efforts");
