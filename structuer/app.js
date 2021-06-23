@@ -36,9 +36,6 @@ Qe();
 Qf();
 Qg();
 
-
-
-
 function Qa(){
 Q1 = prompt("do you think that i'm Creative? ").toUpperCase();
 console.log("Q1 ANSWER")
@@ -181,7 +178,7 @@ for (let attmp = 1; attmp <= 6; attmp++) {
 alert("awsome you got ( " + counter + " / 7 ) score");
 alert("thanks a lot..  " + Uname + ", for your time i appreciate your efforts");
 
-alert ( This alert from Dua Jaradat);
+alert ( "This alert from Dua Jaradat");
 
 
 
