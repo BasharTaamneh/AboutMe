@@ -17,6 +17,8 @@ let Arr1 = []
 let Arr2 = []
 let counter = 0;
 
+
+
 function add() {
     counter += 1;
 }
@@ -26,6 +28,18 @@ console.log(Uname)
 alert("Hello Mr/Mrs  " + Uname + ", you are most Welcome");
 alert("ok Mr/Mrs " + Uname + " let us ask you a few questions (^_^), please answer them with ('yes' OR 'no').");
 
+Qa();
+Qb();
+Qc();
+Qd();
+Qe();
+Qf();
+Qg();
+
+
+
+
+function Qa(){
 Q1 = prompt("do you think that i'm Creative? ").toUpperCase();
 console.log("Q1 ANSWER")
 console.log(Q1)
@@ -41,6 +55,9 @@ switch (Q1) {
         alert("Please answer with (yes OR no).");
         break;
 }
+}
+
+function Qb(){
 Q2 = prompt("Do you think I like technology??").toUpperCase();
 console.log("Q2 ANSWER")
 console.log(Q2)
@@ -56,7 +73,9 @@ switch (Q2) {
         alert("Please answer with (yes OR no).");
         break;
 }
+}
 
+function Qc(){
 Q3 = prompt("Do you think I will achieve my goal?").toUpperCase();
 console.log("Q3 ANSWER")
 console.log(Q3)
@@ -73,7 +92,8 @@ switch (Q3) {
         alert("Please answer with (yes OR no).");
         break;
 }
-
+}
+function Qd(){
 Q4 = prompt("Guess this, do i like food?").toLowerCase();
 console.log("Q4 ANSWER")
 console.log(Q4)
@@ -90,7 +110,8 @@ switch (Q4) {
         alert("Please answer with (yes OR no).");
         break;
 }
-
+}
+function Qe(){
 Q5 = prompt("Am I lucky to host you? ").toLowerCase();
 console.log("Q5 ANSWER")
 console.log(Q5)
@@ -107,12 +128,13 @@ switch (Q5) {
         alert("Please answer with (yes OR no).");
         break;
 }
-
+}
 for (n = 5; n <= 50; n++) {
     Arr1.push(n);
 }
 console.log("Arr1= " + Arr1);
 
+function Qf(){
 Q6 = prompt("guess a number# ! " + (String.fromCodePoint(0x1F3AF)));
 console.log("Q6 ANSWER")
 console.log(Q6)
@@ -129,13 +151,15 @@ for (i = 1; i <= 3; i++) {
     }
 }
 if (Q6 <= 5 || Q6 >= 50) {
-    alert("the correct  Considered numbers to answer is  " + Arr1);
+    alert("the correct  Considered numbers to answer is from (5-50) " + Arr1);
 }
 else if (Q6 >= 5 || Q6 <= 50) {
     alert(" correct (^_^) ");
     add();
 }
+}
 
+function Qg(){
 Arr2 = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
 console.log("Arr2= " + Arr2);
 for (let attmp = 1; attmp <= 6; attmp++) {
@@ -152,6 +176,8 @@ for (let attmp = 1; attmp <= 6; attmp++) {
         }
     }
 }
+}
+
 alert("awsome you got ( " + counter + " / 7 ) score");
 alert("thanks a lot..  " + Uname + ", for your time i appreciate your efforts");
 
