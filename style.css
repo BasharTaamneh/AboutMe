@@ -62,3 +62,16 @@ img {margin-right:  1px;
     border-radius: 10px;
     align-content: center;
 }
+#gif1 {
+    float: left;
+    width: 45%;
+    overflow: auto;
+padding-right: 1%;
+}
+#gif2 {
+    float: right;
+    width: 45%;
+    border-radius: 2%;
+    overflow: auto;
+
+}
